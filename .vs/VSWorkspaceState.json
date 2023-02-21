@@ -8,8 +8,9 @@
     "\\P326FirstApp\\Views",
     "\\P326FirstApp\\Views\\Home",
     "\\P326FirstApp\\Views\\Shared",
+    "\\P326FirstApp\\wwwroot",
     "\\P326FirstApp\\wwwroot\\img"
   ],
-  "SelectedNode": "\\P326FirstApp\\wwwroot",
+  "SelectedNode": "\\P326FirstApp\\Controllers\\HomeController.cs",
   "PreviewInSolutionExplorer": false
 }

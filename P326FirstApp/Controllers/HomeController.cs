@@ -12,13 +12,16 @@ namespace P326FirstApp.Controllers
         //}
         public IActionResult Index()
         {
+            ViewData["Name"] = "Ismayil";
+            ViewBag.Surname = "Zeynalov";
+            TempData["Age"] = 20;
             //return File("~/img/dog.jpg", "image/jpg");
-            var students = GetStudents();
-            var groups = GetGroups();
-            HomeVM homeVM = new HomeVM();
-            homeVM.Students = students;
-            homeVM.Groups = groups;
-            return View(homeVM);
+            //var students = GetStudents();
+            //var groups = GetGroups();
+            //HomeVM homeVM = new HomeVM();
+            //homeVM.Students = students;
+            //homeVM.Groups = groups;
+            return RedirectToAction("About");
         }
         public IActionResult About()
         {

@@ -1,6 +1,10 @@
 ﻿@model HomeVM
-<h1>Home index</h1>
-<div class="container">
+@*<h1>Home index</h1>*@
+
+<p>@ViewData["Name"]</p>
+<p>@ViewBag.Surname</p>
+<p>@TempData["Age"]</p>
+@*<div class="container">
     <div class="row">
         <ul class="list-group-item">
          @foreach (var item in Model.Students)
@@ -18,5 +22,5 @@
 
             }
         </ul>
-    </div>
+    </div>*@
 </div>
