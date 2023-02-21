@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "RfexjDLxGk00tVu1GAqM6Z4OvlX92tv0UoRO1CqcuCY=",
+  "Source": "P326FirstApp",
+  "BasePath": "_content/P326FirstApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "P326FirstApp\\wwwroot",
+      "Source": "P326FirstApp",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\P326FirstApp\\P326FirstApp\\wwwroot\\",
+      "BasePath": "_content/P326FirstApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\HP\\Desktop\\P326FirstApp\\P326FirstApp\\wwwroot\\img\\dog.jpg",
+      "SourceId": "P326FirstApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\P326FirstApp\\P326FirstApp\\wwwroot\\",
+      "BasePath": "_content/P326FirstApp",
+      "RelativePath": "img/dog.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\dog.jpg"
+    }
+  ]
+}
